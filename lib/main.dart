@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
       
-        colorScheme: .fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: .fromSeed(seedColor: const Color.fromARGB(255, 181, 150, 235)),
       ),
       home: CounterScreen(),
     );
@@ -46,7 +46,7 @@ class CounterScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: store.increment,
-        tooltip: 'Increment',
+        tooltip: 'Incremet',
         child: const Icon(Icons.add),
       ),
     );
